@@ -23,15 +23,14 @@ public class Exersizes {
         return a%b==0 || b%a==0;
     }
 
-    public int lastNumSum(int a, int b){
+    public int lastNumSum (int a, int b){
         return a%10 + b%10;
     }
 
     public double safeDiv (int x, int y){
         if (y == 0){
             return 0;
-        }
-        else{
+        } else{
             return (double) x /y;
         }
     }
@@ -39,11 +38,9 @@ public class Exersizes {
     public String makeDecision (int x, int y){
         if (x > y){
             return x + ">" + y;
-        }
-        else if(x < y){
+        } else if(x < y){
             return x + "<" + y;
-        }
-        else{
+        } else{
             return x + "=" + y;
         }
     }
@@ -55,11 +52,9 @@ public class Exersizes {
     public String age (int x){
         if (x%10 == 1 && x != 1){
             return " год";
-        }
-        else if ((x%10 == 2 || x%10 == 3 || x%10 == 4) && (x!= 12 && x!= 13 && x!= 14)){
+        } else if ((x%10 == 2 || x%10 == 3 || x%10 == 4) && (x!= 12 && x!= 13 && x!= 14)){
             return " года";
-        }
-        else{
+        } else{
             return " лет";
         }
     }
@@ -86,11 +81,11 @@ public class Exersizes {
     }
 
     public String reverseListNums (int x){
-        String listnum = "";
+        String listNum = "";
         while (x >= 0){
-            listnum += Integer.toString(x) + " ";
+            listNum += Integer.toString(x) + " ";
         }
-        return listnum;
+        return listNum;
     }
 
     public int pow (int x, int y){
@@ -102,9 +97,9 @@ public class Exersizes {
     }
 
     public boolean equalNum (int x){
-        int intfirst = x%10;
+        int intFirst = x%10;
         while (x >= 10){
-            if (x%10 != intfirst){
+            if (x%10 != intFirst){
                 return false;
             }
         }
@@ -121,13 +116,13 @@ public class Exersizes {
 
     }
 
-    public void guessGame(){
+    public void guessGame (){
         Random rand = new Random();
         Scanner in = new Scanner(System.in);
-        int answer, numbertoguess = rand.nextInt(9);
+        int answer, numberToGuess = rand.nextInt(9);
         System.out.println("Отгадайте цифру от 0 до 9");
         answer = in.nextInt();
-        while (answer != numbertoguess){
+        while (answer != numberToGuess){
             System.out.println("Не верно. Отгадайте цифру от 0 до 9");
             answer = in.nextInt();
         }
@@ -135,13 +130,13 @@ public class Exersizes {
     }
 
     public int findLast (int[] arr, int x){
-        int lastid = -1;
+        int lastId = -1;
         for (int i = 0;i< arr.length;i++){
             if (arr[i] == x){
-                lastid = i;
+                lastId = i;
             }
         }
-        return lastid;
+        return lastId;
     }
 
     public int[]add (int[] arr, int x, int pos){
@@ -175,15 +170,15 @@ public class Exersizes {
         }
         return result;
     }
-    
+
     public int[] deleteNegative (int[] arr){
-        int newarrlength = 0,temp = 0;
+        int newArrLenght = 0,temp = 0;
         for (int i = 0;i<arr.length;i++){
             if (arr[i] >= 0){
-                newarrlength++;
+                newArrLenght++;
             }
         }
-        int[] result = new int[newarrlength];
+        int[] result = new int[newArrLenght];
         for (int i = 0;i<arr.length;i++){
             if (arr[i] >= 0){
                 result[temp] = arr[i];
