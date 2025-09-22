@@ -15,26 +15,26 @@ public class Main {
 
         while (true) {
             System.out.println("\nВыберите метод для выполнения:");
-            System.out.println("1. sumLastDigits - Сумма двух последних цифр числа");
-            System.out.println("2. isPositive - Проверка положительного числа");
-            System.out.println("3. isUpperCase - Проверка заглавной буквы");
-            System.out.println("4. isDivisor - Проверка делимости чисел");
-            System.out.println("5. lastDigitSum - Сумма последних цифр двух чисел");
-            System.out.println("6. safeDiv - Безопасное деление");
-            System.out.println("7. makeDecision - Сравнение двух чисел");
-            System.out.println("8. hasSumPair - Проверка суммы пар чисел");
-            System.out.println("9. getAgeSuffix - Правильное окончание для возраста");
-            System.out.println("10. printDays - Вывод дней недели");
-            System.out.println("11. reverseListNumbers - Обратный список чисел");
-            System.out.println("12. power - Возведение в степень");
-            System.out.println("13. allDigitsEqual - Проверка одинаковых цифр");
-            System.out.println("14. printLeftTriangle - Печать треугольника");
-            System.out.println("15. guessGame - Игра угадай число");
-            System.out.println("16. findLastIndex - Поиск последнего вхождения");
-            System.out.println("17. insert - Вставка элемента в массив");
-            System.out.println("18. reverseArray - Переворот массива");
-            System.out.println("19. concatArrays - Объединение массивов");
-            System.out.println("20. removeNegatives - Удаление отрицательных чисел");
+            System.out.println("1. Сумма двух последних цифр числа");
+            System.out.println("2. Проверка положительного числа");
+            System.out.println("3. Проверка заглавной буквы");
+            System.out.println("4. Проверка делимости чисел");
+            System.out.println("5. Сумма последних цифр двух чисел");
+            System.out.println("6. Безопасное деление");
+            System.out.println("7. Сравнение двух чисел");
+            System.out.println("8. Проверка суммы пар чисел");
+            System.out.println("9. Правильное окончание для возраста");
+            System.out.println("10. Вывод дней недели");
+            System.out.println("11. Обратный список чисел");
+            System.out.println("12. Возведение в степень");
+            System.out.println("13. Проверка одинаковых цифр");
+            System.out.println("14. Печать треугольника");
+            System.out.println("15. Игра угадай число");
+            System.out.println("16. Поиск последнего вхождения");
+            System.out.println("17. Вставка элемента в массив");
+            System.out.println("18. Переворот массива");
+            System.out.println("19. Объединение массивов");
+            System.out.println("20. Удаление отрицательных чисел");
             System.out.println("0. Выход");
             System.out.print("Ваш выбор: ");
 
