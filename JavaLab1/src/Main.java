@@ -82,6 +82,12 @@ public class Main {
                     System.out.print("Введите второе число: ");
                     num2 = scanner.nextInt();
                     answerint = ex.lastNumSum(num1, num2);
+                    for (int i = 0;i<4;i++){
+                        System.out.println("Сумма последних цифр: " + answerint);
+                        System.out.print("Введите второе число: ");
+                        num2 = scanner.nextInt();
+                        answerint = ex.lastNumSum(answerint, num2);
+                    }
                     System.out.println("Сумма последних цифр: " + answerint);
                     break;
 
